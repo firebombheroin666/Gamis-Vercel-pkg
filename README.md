@@ -9,18 +9,18 @@
     <h3>
       <a href="https://sourdoughlover.github.io/2048-CUPCAKES/">2048 Cupcakes</a>
     </h3>
-<hr>
+ <hr>
   <img src="IMG_0647.jpeg" width="300" height="204">
     <h3>
       <a href="https://sourdoughlover.github.io/CaseClicker/">CS-GO Clicker</a>
     </h3>
-<hr>
+ <hr>
   <img src="IMG_0646.jpeg" width="204" height="204">
     <h3>
      <a href="https://sourdoughlover.github.io/incremancer/">incremancer></a>
     </h3>
+  <hr>
 <p1>
   Jett is a stinky doodoo head
 </p1>
-<hr>
 </body>
