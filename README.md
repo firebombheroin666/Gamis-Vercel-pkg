@@ -9,5 +9,10 @@
     <h3>
       <a href="https://sourdoughlover.github.io/2048-CUPCAKES/">2048 Cupcakes</a>
     </h3>
+    <hr>
+    <img src="IMG_0647.jpeg" width="300" height="204">
+    <h3>
+      <a href="https://sourdoughlover.github.io/CaseClicker/">CS-GO Clicker</a>
+    </h3>
 <hr>
 </body>
