@@ -17,7 +17,7 @@
  <hr>
   <img src="IMG_0646.jpeg" width="204" height="204">
     <h3>
-     <a href="https://sourdoughlover.github.io/incremancer/">incremancer></a>
+     <a href="https://sourdoughlover.github.io/incremancer/">incremancer</a>
     </h3>
   <hr>
 <p1>
