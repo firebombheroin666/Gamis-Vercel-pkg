@@ -39,6 +39,11 @@
   <h3> 
     <a href="https://sourdoughlover.github.io/PapasBurgeria/">shitty burger game</a>
   </h3>
+ <hr>
+  <img src="IMG_0667.webp" width="204" height="204">
+  <h3>
+    <a href="https://github.com/sourdoughlover/awesome-tanks-2/settings/pages">tank game</a>
+  </h3>
 <p1>
   Jett is a stinky doodoo head
 </p1>
