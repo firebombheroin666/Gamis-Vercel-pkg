@@ -3,9 +3,25 @@
 <head>
 <html>
 <style>
-.MD2 {
-      height
-}
+    <style>
+        .container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 75%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #game {
+            position: absolute;
+            width: 75%;
+            height: 75%;
+            border: 0;
+            padding: 0;
+        }
+    </style>
 </style>
 <body style="background-color:Pink;">
   <p1>
@@ -14,11 +30,9 @@
   <center><h1>GAMES:</h1></center>
 <script>
 </script>
-					<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%; overflow: hidden;">
-    <center>
-        <iframe id="game" title="Getting Over It" src="https://www.hoodamath.com/mobile/games/getting-over-it/game.html?nocheckorient=1" scrolling="no" allow="fullscreen" style="width: 75%; height: 75%; border: 0; padding: 0;"></iframe>
-    </center>
-</div>
+	<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%; overflow: hidden;">
+		<iframe id="game" title="Getting Over It" src="https://www.hoodamath.com/mobile/games/getting-over-it/game.html?nocheckorient=1" scrolling="no" allow="fullscreen" style="position: absolute; top: 0; left: 0; width: 75%; height: 75%; margin: 0; border: 0; padding: 0;"></iframe>
+        </div>
 	
 <hr style="background-color:Pink;">
   <img src="IMG_0642.jpeg" width="204" height="220">
