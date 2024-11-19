@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="Bintus Games Collection"/>
+        <title>BINTUS GAMES</title>
+
+        <!-- Core Styles -->
+        <style>
+            /* Base styles */
+            body {
+                background-color: Pink;
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+
+            /* Main container */
+            .main-container {
+                width: 75%;
+                margin: 0 auto;
+                padding: 20px;
+            }
+
+            /* Floating title animation */
+            .floating-title {
+                text-align: center;
+                animation: float 3s ease-in-out infinite;
+                margin-bottom: 30px;
+            }
+
+            @keyframes float {
+                0%, 100% { transform: translatey(0px); }
+                50% { transform: translatey(-10px); }
+            }
+
+            /* Description section */
+            .description {
+                text-align: center;
+                margin: 20px 0;
+                padding: 20px;
+                background-color: rgba(255, 255, 255, 0.8);
+                border-radius: 10px;
+            }
+
+            /* Toggle button */
+            button {
+                display: block;
+                margin: 20px auto;
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+                background-color: lightblue;
+                border: 2px solid black;
+                border-radius: 5px;
+            }
+
+            /* Games grid layout */
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+                padding: 20px;
+            }
+
+            /* Individual game cards */
+            .cd1 {
+                border: 2px solid black;
+                background-color: lightblue;
+                padding: 15px;
+                text-align: center;
+                border-radius: 8px;
+                transition: transform 0.2s;
+            }
+
+            .cd1:hover {
+                transform: scale(1.02);
+            }
+
+            /* Image styling */
+            img {
+                max-height: 200px;
+                max-width: 200px;
+                border-radius: 5px;
+            }
+
+            /* Links styling */
+            a {
+                text-decoration: none;
+                color: #333;
+            }
+
+            a:hover {
+                color: #666;
+            }
+
+            /* Footer section */
+            .links-badges {
+                margin-top: 40px;
+                text-align: center;
+                padding: 20px;
+                background-color: rgba(255, 255, 255, 0.8);
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Header -->
+        <h1 class="floating-title">BINTUS GAMES</h1>
+
+        <!-- Main content container -->
+        <div class="main-container">
+            <!-- Description -->
+            <div class="description">
+                Welcome to Bintus Games! Explore our collection of fun and engaging games.
+            </div>
+
+            <!-- Toggle button -->
+            <button onclick="toggleGames()">Toggle Games</button>
+
+            <!-- Games grid -->
+            <div class="grid-container">
+                <!-- Game 1 -->
+                <div class="cd1">
+                    <img src="GETOVERIT.jpeg" width="204" height="200"/>
+                    <h3>
+                        <a href="https://bintusgames.vercel.app/secret.html#gsc.tab=0">Get Over It</a>
+                    </h3>
+                </div>
+
+                <!-- Additional game templates -->
+                <!-- Copy the above div structure for new games -->
+                <!-- Game template (10 placeholders) -->
+                <div class="cd1">
+                    <img src="placeholder.jpg" width="204" height="200"/>
+                    <h3>
+                        <a href="#">New Game</a>
+                    </h3>
+                </div>
+                <!-- Repeat for remaining placeholders -->
+            </div>
+
+            <!-- Footer -->
+            <div class="links-badges">
+                <h3>Links & Resources</h3>
+                <!-- Add your links and badges here -->
+            </div>
+        </div>
+
+        <!-- JavaScript -->
+        <script>
+            function toggleGames() {
+                const games = document.querySelectorAll('.cd1');
+                games.forEach(game => {
+                    game.style.display = 
+                        game.style.display === 'none' ? 'block' : 'none';
+                });
+            }
+        </script>
+    </body>
+</html>
