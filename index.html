@@ -8,13 +8,6 @@
         <style>
 	    body {
                 position: relative;
-	    }
-	    body:after {
-                position: fixed;
-                top: 0;
-                left: 0;
-                height: 100%;    
-                width: 100%;   
 		font-family: Arial, sans-serif;
 	        color: white;
                 content: '';
@@ -23,6 +16,7 @@
                 background-repeat: no-repeat;
                 background-color: #000;
                 background-position: bottom right;
+		overflow: auto;
     }
 	    .main-container {
                 width: 75%;
@@ -198,5 +192,10 @@
                 });
             }
         </script>
+	<script>
+	    function noscroll() {
+		document.getElementById("body").style.backgroundAttachment = "fixed";  
+	    }
+	</script>
     </body>
 </html>
