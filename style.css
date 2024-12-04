@@ -291,6 +291,7 @@ body {
     position: fixed;
     width: 1px;
     opacity: 0.4;
+    filter: invert(100%);
     z-index: -1;
   }
   #container-wrap:before,
@@ -359,6 +360,7 @@ body {
     position: fixed;
     width: 2px;
     opacity: 0.3;
+    filter: invert(100%);
     z-index: -1;
   }
   #container:before,
@@ -399,6 +401,7 @@ body {
     position: fixed;
     width: 3px;
     opacity: 0.2;
+    filter: invert(100%);
     z-index: -1;
   }
   @-webkit-keyframes animStar {
