@@ -1,8 +1,12 @@
+@font-face {
+	src: "DeterminationSansWebRegular-369X.ttf";
+	font-family: 'font';
+}
 body {
     z-index: -5;
     position: relative;
-		font-family: Arial, sans-serif;
-	  color: white;
+    font-family: 'font';
+	color: white;
 		overflow: auto;
 		content: '';
 		background-color: black;
