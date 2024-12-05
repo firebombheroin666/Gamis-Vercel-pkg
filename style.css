@@ -1,5 +1,5 @@
 @font-face {
-	src: "DeterminationSansWebRegular-369X.ttf";
+	src: local('DeterminationSansWebRegular-369X.ttf');
 	font-family: 'font';
 }
 body {
