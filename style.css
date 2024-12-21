@@ -1,49 +1,55 @@
 @font-face {
-	src: url('upheavtt.tf');
-	font-family: 'font';
+    src: url('upheavtt.tf');
+    font-family: 'font';
 }
+
 body {
     z-index: -5;
     position: relative;
     font-family: 'font';
-	color: white;
-		overflow: auto;
-		content: '';
-		background-color: black;
+    color: white;
+    overflow: auto;
+    content: '';
+    background-color: black;
     background-image: url(IMG_0049.webp);
     background-size: 40%;
     background-repeat: repeat;
     background-position: bottom right;
-		background-attachment: fixed;
-      }
-	    .main-container {
+    background-attachment: fixed;
+}
+
+.main-container {
     width: 75%;
     margin: 0 auto;
     padding: 20px;
-		border: 5px solid white;
-		border-radius: 30px;
-		background-color: #1c253c;
-		display: block;
-	    }
-      .floating-title {
+    border: 5px solid white;
+    border-radius: 30px;
+    background-color: #1c253c;
+    display: block;
+}
+
+.floating-title {
     text-align: center;
     animation: float 3s ease-in-out infinite;
     margin-bottom: 30px;
-		font-size: 3em;
-      }
-      @keyframes float {
-    0%, 100% { transform: translatey(0px); }
-    50% { transform: translatey(-10px); }
-      }
-      .description {
+    font-size: 3em;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
+.description {
     text-align: center;
     margin: 50px 0;
     padding: 10px;
     background-color: #3c1c31;
     border-radius: 10px;
-		border: 2px solid white;
-      }			
-      button {
+    border: 2px solid white;
+}
+
+button {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
@@ -52,45 +58,50 @@ body {
     background-color: lightblue;
     border: 2px solid white;
     border-radius: 5px;
-     }
-     .grid-container {
+}
+
+.grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
-      }
-      .cd1 {
-    border: 2px solid black;
+}
+
+.cd1 {
     background-color: #145051;
     padding: 15px;
     text-align: center;
     border-radius: 8px;
     transition: transform 0.2s;
-		border: 2px solid white;
-      }
-      .cd1:hover {
+    border: 2px solid white;
+}
+
+.cd1:hover {
     transform: scale(1.02);
-      }
-      .game {
-		min-height: 200px;
-		min-width: 200px
+}
+
+.game {
+    min-height: 200px;
+    min-width: 200px;
     max-height: 200px;
     max-width: 200px;
     border-radius: 5px;
-      }
-      a {
+}
+
+a {
     text-decoration: none;
     color: #999;
-      }
-      a:hover {
+}
+
+a:hover {
     color: #e9e9e9;
-      }
-      .links-badges {
+}
+
+.links-badges {
     margin-top: 40px;
     text-align: center;
     padding: 20px;
     background-color: #3c1c31;
     border-radius: 10px;
-		border: 2px solid white;
-      }
-
+    border: 2px solid white;
+}
