@@ -27,6 +27,16 @@ body {
     background-color: #1c253c;
     display: block;
 }
+.main-container {
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 30px;
+    background-color: #1c253c;
+    display: inline-block;
+}
+
 
 .floating-title {
     text-align: center;
