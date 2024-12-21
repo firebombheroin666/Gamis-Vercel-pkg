@@ -36,6 +36,14 @@ body {
     display: inline-block;
 }
 
+.links-badges {
+    width: 20%;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 30px;
+    background-color: #1c253c;
+    display: inline-block;
+}
 
 .floating-title {
     text-align: center;
@@ -104,13 +112,4 @@ a {
 
 a:hover {
     color: #e9e9e9;
-}
-
-.links-badges {
-    margin-top: 40px;
-    text-align: center;
-    padding: 20px;
-    background-color: #3c1c31;
-    border-radius: 10px;
-    border: 2px solid white;
 }
