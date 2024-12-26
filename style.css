@@ -4,6 +4,8 @@
 }
 
 body {
+    display: grid;
+    place-items: center;
     z-index: -5;
     position: relative;
     font-family: 'font';
@@ -29,10 +31,6 @@ body {
 }
 .main-container-lander {
     width: 75%;
-    margin: 0 auto;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     padding: 20px;
     background-color: #2f3699;
     display: block;
