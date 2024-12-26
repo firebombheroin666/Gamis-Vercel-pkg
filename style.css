@@ -30,7 +30,7 @@ body {
 .main-container-lander {
     width: 75%;
     margin: 0 auto;
-    margin-top: 50%;
+    top: 50%;
     padding: 20px;
     background-color: #2f3699;
     display: block;
