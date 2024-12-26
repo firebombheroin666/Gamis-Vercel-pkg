@@ -12,7 +12,7 @@ body {
     content: '';
     background-color: black;
     background-image: url(media/pixilart-drawing.gif);
-    background-size: 40%;
+    background-size: 100%;
     background-repeat: repeat;
     background-position: bottom right;
     background-attachment: fixed;
