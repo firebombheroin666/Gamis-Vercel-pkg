@@ -33,7 +33,7 @@ body {
 }
 .main-container-lander {
     width: 50%;
-    hight: 35%;
+    hight: 100%;
     padding: 20px;
     background-color: #2f3699;
     display: block;
