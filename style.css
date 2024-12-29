@@ -3,6 +3,11 @@
     font-family: 'font';
 }
 
+.welcome map {
+    height: 50%;
+    width: 50%;
+}
+
 body {
     display: flex;
     align-items: center;
