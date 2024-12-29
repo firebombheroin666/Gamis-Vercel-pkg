@@ -31,6 +31,26 @@ body {
     background-attachment: fixed;
 }
 
+.body-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    z-index: -5;
+    position: relative;
+    font-family: 'font';
+    color: white;
+    overflow: auto;
+    content: '';
+    background-color: black;
+    background-image: url(media/pixilart-drawing.gif);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: bottom right;
+    background-attachment: fixed;
+}
+
+
 .main-container {
     width: 75%;
     margin: 0 auto;
