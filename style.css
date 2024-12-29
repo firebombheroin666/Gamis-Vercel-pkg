@@ -69,14 +69,13 @@ body {
     display: block;
 }
 
-}
 .main-container-index {
-    width: 60%;
-    height: 200%;
-    margin-top: 0px;
+    width: 75%;
+    margin: 0 auto;
     padding: 20px;
-    position: fixed;
-    background-color: #2f3699;
+    border: 5px solid white;
+    border-radius: 30px;
+    background-color: #1c253c;
     display: block;
 }
 
