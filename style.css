@@ -71,8 +71,9 @@ body {
 
 }
 .main-container-index {
-    width: 40%;
-    height: 35%;
+    width: 60%;
+    height: 200%;
+    margin-top: 50px;
     padding: 0px;
     position: fixed;
     background-color: #2f3699;
