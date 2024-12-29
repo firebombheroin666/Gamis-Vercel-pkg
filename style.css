@@ -9,7 +9,7 @@ body {
     justify-content: center;
     height: 100vh; 
     z-index: -5;
-    position: fixed;
+    position: relative;
     font-family: 'font';
     color: white;
     overflow: auto;
@@ -35,6 +35,7 @@ body {
     width: 50%;
     height: 35%;
     padding: 20px;
+    position: fixed;
     background-color: #2f3699;
     display: block;
 }
