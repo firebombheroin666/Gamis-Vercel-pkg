@@ -9,7 +9,7 @@ body {
     justify-content: center;
     height: 100vh; 
     z-index: -5;
-    position: relative;
+    position: fixed;
     font-family: 'font';
     color: white;
     overflow: auto;
