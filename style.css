@@ -27,7 +27,7 @@ body {
     background-image: url(media/pixilart-drawing.gif);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position-y: top;
     background-attachment: fixed;
 }
 
