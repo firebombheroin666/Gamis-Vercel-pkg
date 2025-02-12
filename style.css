@@ -86,6 +86,8 @@ body {
     border-radius: 30px;
     background-color: #33C7FB;
     display: block;
+    color: black;
+    background-color: transparent;
 }
 
 .links-badges {
