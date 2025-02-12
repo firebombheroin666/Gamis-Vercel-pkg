@@ -1,11 +1,11 @@
 @font-face {
-    font-family: "Comic Sans MS", sans-serif;
+    font-family: "Comic Sans MS";
 }
 
 /*  margin-left: auto;
     margin-right: auto;  */
 html {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS";
 }
 
 .welcome-map {
@@ -48,7 +48,7 @@ body {
     height: 100vh; 
     z-index: -5;
     position: relative;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS";
     color: white;
     overflow: auto;
     content: '';
