@@ -49,7 +49,7 @@ body {
     height: 100vh; 
     z-index: -5;
     position: relative;
-    font-family: 'font';
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     color: white;
     overflow: auto;
     content: '';
