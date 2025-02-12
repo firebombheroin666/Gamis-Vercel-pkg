@@ -1,6 +1,8 @@
 @font-face {
-    font-family: "Comic Sans MS";
+  font-family: "Comic Sans MS";
+  src: url("Ldfcomicsans-jj7l.ttf") format("ttf");
 }
+
 
 /*  margin-left: auto;
     margin-right: auto;  */
