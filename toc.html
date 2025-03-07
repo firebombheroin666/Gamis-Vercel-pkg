@@ -12,6 +12,16 @@
       background-image: url("media/pixilart-drawing-1.gif");
       background-repeat: repeat-y;
       background-size: 100%;
+      position: relative; /* Add position relative to allow absolute positioning of the image */
+    }
+
+    /* Style for the top left image */
+    .top-left-image {
+      position: absolute;
+      top: 20px; /* Adjust distance from top */
+      left: 20px; /* Adjust distance from left */
+      max-width: 100px; /* Adjust image size as needed */
+      height: auto;
     }
 
     .container {
@@ -24,19 +34,19 @@
 
     .link-div {
       display: block;
-      width: calc(50% - 10px); /* Two divs per row with some margin */
+      width: calc(50% - 10px);
       margin: 5px;
       padding: 15px;
       border: 1px solid #242424;
       border-radius: 5px;
       background-color: #c97b7b;
-      cursor: pointer; /* Indicate that it's clickable */
-      transition: transform 0.2s, background-color 0.2s; /* Add smooth transitions */
+      cursor: pointer;
+      transition: transform 0.2s, background-color 0.2s;
     }
 
     .link-div:hover {
-      transform: scale(1.05); /* Make it slightly larger on hover */
-      background-color: #f8f8f8; /* Slightly brighter background */
+      transform: scale(1.05);
+      background-color: #f8f8f8;
     }
 
     .link-div img {
@@ -53,6 +63,7 @@
 </head>
 <body>
 
+  <img src="your-image.jpg" alt="Top Left Image" class="top-left-image"> 
   <div class="container">
     <h1>Welcome to My Very Cool Professional Webpage</h1>
 
