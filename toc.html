@@ -1,20 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="my site :3"/>
-    <title>super epic index</title>
-    <link rel="stylesheet" href="style.css"> 
+  <title>My Webpage</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-image: url("your-background-image.jpg");
+      background-repeat: repeat-y;
+      background-size: 100%;
+    }
+
+    .container {
+      width: 75%;
+      background-color: #f2f2f2;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .link-div {
+      display: block;
+      width: calc(50% - 10px); /* Two divs per row with some margin */
+      margin: 5px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #fff;
+      cursor: pointer; /* Indicate that it's clickable */
+      transition: transform 0.2s, background-color 0.2s; /* Add smooth transitions */
+    }
+
+    .link-div:hover {
+      transform: scale(1.05); /* Make it slightly larger on hover */
+      background-color: #f8f8f8; /* Slightly brighter background */
+    }
+
+    .link-div img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .badges a {
+      display: inline-block;
+      margin: 5px;
+    }
+  </style>
 </head>
-<body class="body-1">
-    <div class="main-container-index">
-        <p1>
-            here ar all the different pages on this amazing website: 
-        </p1>
-            <div class="links-badges">
-        
+<body>
+
+  <div class="container">
+    <h1>Welcome to My Webpage</h1>
+
+    <div class="links-container">
+      <a href="page1.html" class="link-div">
+        <img src="image1.jpg" alt="Image for Page 1">
+        <h2>Page 1</h2>
+        <p>Description of Page 1 goes here.</p>
+      </a>
+
+      <a href="page2.html" class="link-div">
+        <img src="image2.jpg" alt="Image for Page 2">
+        <h2>Page 2</h2>
+        <p>Description of Page 2 goes here.</p>
+      </a>
+
+      <a href="page3.html" class="link-div">
+        <img src="image3.jpg" alt="Image for Page 3">
+        <h2>Page 3</h2>
+        <p>Description of Page 3 goes here.</p>
+      </a>
     </div>
-    </div>
+
+    <section class="badges">
+      <h2>Badges and Links</h2>
+      <a href="https://www.example.com">
+        <img src="badge1.png" alt="Badge 1">
+      </a>
+      <a href="https://www.anotherexample.com">
+        <img src="badge2.png" alt="Badge 2">
+      </a>
+    </section>
+  </div>
+
 </body>
 </html>
